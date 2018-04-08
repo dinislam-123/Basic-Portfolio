@@ -85,7 +85,7 @@ li, a
     margin: 10px;
 }
 
-#contact-info
+#portfolio-info
 {
     width:90%;
     margin: auto;
@@ -177,8 +177,6 @@ li, a
 
 #label
 {
-    width:100px;
-    height:40px;
     background-color: green;
+    color: white;
 }
-
