@@ -108,75 +108,97 @@ li, a
     height:600px;
     background-color: #d1cdcd;
 }
-#image-group
+
+#image-1
 {
-    display: flex;
-    direction: row;
-    padding-bottom: 5px;
+    position: absolute;
+    width:100px;
+    height:100px;
+    z-index:1;
+}
+#box-1
+{
+    position:relative;
+    width:85px;
+    height:30px;
+    left:0px;
+    top:65px;
+    z-index:2;
+    background-color: green;
+    color:white;
+    padding-left: 25px;
+    padding-top: 5px;
 }
 
-#img-1
-{
-    background-repeat: no-repeat;
-    background-image:url(../images/picture-1.jpg);
-    width:100px;
-    height:30px;
-    padding-top: 70px;
-    padding-left: 30px;
-} 
 
-
-#img-2
+#image-2
 {
-    background-repeat: no-repeat;
-    background-image:url(../images/picture-2.jpg);
+    position: absolute;
     width:100px;
-    height:30px;
-    padding-top: 70px;
-    padding-left: 30px;
-} 
-
-#img-3
+    height:100px;
+    left:35%;
+    top:185px;
+    z-index: 1;
+}
+#box-2
 {
-    background-repeat: no-repeat;
-    background-image:url(../images/picture-3.png);
-    width:100px;
+    position: absolute;
+    width:75px;
     height:30px;
-    padding-top: 70px;
-    padding-left: 30px;
-} 
-
-#img-4
-{
-    background-repeat: no-repeat;
-    background-image:url(../images/picture-4.jpg);
-    width:100px;
-    height:30px;
-    padding-top: 70px;
-    padding-left: 30px;
-} 
-#img-5
-{
-    background-repeat: no-repeat;
-    background-image:url(../images/picture-5.png);
-    width:100px;
-    height:30px;
-    padding-top: 70px;
-    padding-left: 30px;
-} 
-
-#img-6
-{
-    background-repeat: no-repeat;
-    background-image:url(../images/picture-6.jpg);
-    width:100px;
-    height:30px;
-    padding-top: 70px;
-    padding-left: 30px;
-} 
-
-#label
-{
+    left:35%;
+    top:250px;
+    z-index:2;
     background-color: green;
-    color: white;
+    color:white;
+   
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+
+#image-3
+{
+    position: absolute;
+    width:100px;
+    height:100px;
+    top:300px;
+    z-index: 1;
+}
+#box-3
+{
+    position: relative;
+    width:78px;
+    height:30px;
+    top:150px;
+    z-index:2;
+    background-color: green;
+    color:white;
+   
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+
+#image-4
+{
+    position: absolute;
+    width:100px;
+    height:100px;
+    left:35%;
+    top:300px;
+    z-index: 1;
+}
+#box-4
+{
+    position: absolute;
+    width:75px;
+    height:30px;
+    left:35%;
+    top:365px;
+    z-index:2;
+    background-color: green;
+    color:white;
+   
+    padding-left: 25px;
+    padding-top: 5px;
 }
