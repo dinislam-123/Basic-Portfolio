@@ -1,0 +1,184 @@
+
+#heading-container
+{
+    display: flex;
+    width:960px;
+    height: 50px;
+    margin:auto;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+
+#person-name
+{
+    width:50%;
+    height:50px;
+}
+
+#name
+{
+    font-size: 25px;
+    font-weight:bold;
+    color:white;
+    font-family: 'Times New Roman';
+    background-color: #4aaaa5;
+}
+#menu-item
+{
+  width: 50%;
+  height: 50px;
+}
+ul
+{ 
+    list-style-type: none;
+}
+li
+{
+    float: right;
+}
+
+li, a
+{
+    color:#777777;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline;
+    padding-left: 20px;
+}
+
+#info-body
+{
+    width:auto;
+    height:600px;
+    background-color: #d1cdcd;
+}
+#info-container
+{
+    margin:auto;
+    width:960px;
+    height:570px;
+    background-color:#ffffff;
+    overflow-y: scroll;
+}
+
+#border
+{
+    height:5px;
+    background-color:#4aaaa5;
+}
+
+#footer
+{
+    width:auto;
+    height:50px;
+    background-color:#666666;
+}
+
+/* following styles are describing for contact.html*/
+
+#portfolio
+{
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:25px;
+    color:#4aaaa5;
+    margin: 10px;
+}
+
+#contact-info
+{
+    width:90%;
+    margin: auto;
+}
+#hrline
+{
+    width:100%;
+}
+
+#portfolio-container
+{
+    margin:auto;
+    width:800px;
+    height:450px;
+    background-color:#ffffff;
+}
+#portfolio-body
+{
+    width:auto;
+    height:600px;
+    background-color: #d1cdcd;
+}
+#image-group
+{
+    display: flex;
+    direction: row;
+    padding-bottom: 5px;
+}
+
+#img-1
+{
+    background-repeat: no-repeat;
+    background-image:url(../images/picture-1.jpg);
+    width:100px;
+    height:30px;
+    padding-top: 70px;
+    padding-left: 30px;
+} 
+
+
+#img-2
+{
+    background-repeat: no-repeat;
+    background-image:url(../images/picture-2.jpg);
+    width:100px;
+    height:30px;
+    padding-top: 70px;
+    padding-left: 30px;
+} 
+
+#img-3
+{
+    background-repeat: no-repeat;
+    background-image:url(../images/picture-3.png);
+    width:100px;
+    height:30px;
+    padding-top: 70px;
+    padding-left: 30px;
+} 
+
+#img-4
+{
+    background-repeat: no-repeat;
+    background-image:url(../images/picture-4.jpg);
+    width:100px;
+    height:30px;
+    padding-top: 70px;
+    padding-left: 30px;
+} 
+#img-5
+{
+    background-repeat: no-repeat;
+    background-image:url(../images/picture-5.png);
+    width:100px;
+    height:30px;
+    padding-top: 70px;
+    padding-left: 30px;
+} 
+
+#img-6
+{
+    background-repeat: no-repeat;
+    background-image:url(../images/picture-6.jpg);
+    width:100px;
+    height:30px;
+    padding-top: 70px;
+    padding-left: 30px;
+} 
+
+#label
+{
+    width:100px;
+    height:40px;
+    background-color: green;
+}
+

@@ -1,0 +1,144 @@
+
+#heading-container
+{
+    display: flex;
+    width:960px;
+    height: 50px;
+    margin:auto;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+
+#person-name
+{
+    width:50%;
+    height:50px;
+}
+
+#name
+{
+    font-size: 25px;
+    font-weight:bold;
+    color:white;
+    font-family: 'Times New Roman';
+    background-color: #4aaaa5;
+}
+#menu-item
+{
+  width: 50%;
+  height: 50px;
+}
+ul
+{ 
+    list-style-type: none;
+}
+li
+{
+    float: right;
+}
+
+li, a
+{
+    color:#777777;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline;
+    padding-left: 20px;
+}
+
+#info-body
+{
+    width:auto;
+    height:600px;
+    background-color: #d1cdcd;
+}
+#info-container
+{
+    margin:auto;
+    width:960px;
+    height:570px;
+    background-color:#ffffff;
+    overflow-y: scroll;
+}
+
+img
+{
+    float:left;
+    padding-right: 10px;
+}
+
+#border
+{
+    height:5px;
+    background-color:#4aaaa5;
+}
+/* These following properties and value for footer div */
+#footer
+{
+    width:auto;
+    height:50px;
+    background-color:#666666;
+}
+
+/* following styles are describing for contact.html*/
+
+#contact, #p-about
+{
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:25px;
+    color:#4aaaa5;
+    margin: 10px;
+}
+
+#contact-info
+{
+    width:90%;
+    margin: auto;
+}
+#hrline
+{
+    width:100%;
+}
+#c-name, #email, #message
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    width:100%;
+}
+#message
+{
+    height:100px;
+}
+
+#submit
+{
+    background-color: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight:bold;
+    color:white;
+}
+#contact-info-container
+{
+    margin:auto;
+    width:960px;
+    height:450px;
+    background-color:#ffffff;
+}
+#contact-info-body
+{
+    width:auto;
+    height:500px;
+    background-color: #d1cdcd;
+}
+
+    /* Following style for index file   */
+
+#person-info
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 10px;
+    text-align: justify;
+}

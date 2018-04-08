@@ -1,0 +1,103 @@
+
+#heading-container
+{
+    display: flex;
+    width:960px;
+    height: 50px;
+    margin:auto;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+
+#person-name
+{
+    width:50%;
+    height:50px;
+}
+
+#name
+{
+    font-size: 25px;
+    font-weight:bold;
+    color:white;
+    font-family: 'Times New Roman';
+    background-color: #4aaaa5;
+}
+#menu-item
+{
+  width: 50%;
+  height: 50px;
+}
+ul
+{ 
+    list-style-type: none;
+}
+li
+{
+    float: right;
+}
+
+li, a
+{
+    color:#777777;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline;
+    padding-left: 20px;
+}
+
+#info-body
+{
+    padding:5px;
+    width:auto;
+    height:600px;
+    background-color: #d1cdcd;
+}
+#info-container
+{   padding: 5px;
+    margin:auto;
+    width:960px;
+    height:570px;
+    background-color:#ffffff;
+    overflow-y: scroll;
+}
+
+img
+{
+    float:left;
+    padding-right: 15px;
+}
+
+#border
+{
+    height:5px;
+    background-color:#4aaaa5;
+}
+
+#footer
+{
+    width:auto;
+    height:50px;
+    background-color:#666666;
+}
+
+#p-about
+{
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:25px;
+    color:#4aaaa5;
+    margin: 5px;
+}
+
+#hrline
+{
+    width:100%;
+}
+
+#person-info
+{
+    font-size: 20px;
+    margin: 5px;
+    text-align: justify;
+}
